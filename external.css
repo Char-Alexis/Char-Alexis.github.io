@@ -1,0 +1,91 @@
+
+
+
+body{
+    background-color:rgb(231, 229, 226);
+    font-family: monospace;
+    line-height: normal;
+    padding-left: 10px;
+    place-content: center;
+    text-align: center;
+    min-height: 100;
+}
+
+/* img{
+    display: block;
+    max-width: 100%;
+} */
+
+h1{
+    font-family: monospace;
+    font-size: 20px;
+    
+}
+
+.greeting{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.secondgreeting{
+    font-size: 18px;
+    margin: 50px;
+}
+ .line1{
+     position: relative;
+     top: 50px;
+     width: 24em;
+     margin: 0 auto;
+     border-right: 2px solid rgba(red, green, blue, alpha);
+     font-size: 180%;
+     text-align: center;
+     white-space: nowrap;
+     overflow: hidden;
+     transform: translateY(-50%);
+ }
+
+.animationtypewriter{
+    animation: typewriter 4s steps(20) 1s 1 normal both,
+    
+}
+.typewriter {
+    font-family: monospace;
+    margin-bottom: 150px;
+    color: black;
+}
+
+
+.navigate{
+    text-align: right;
+    border-bottom: 2px solid white;
+
+}
+/* .introduction{
+    margin-right: 58px;
+} */
+
+.section2{
+    margin-bottom: 150px;
+}
+
+.section3{
+    margin-bottom: 150px;
+    
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+th{
+    background-color:ghostwhite;
+    color:black;
+}
