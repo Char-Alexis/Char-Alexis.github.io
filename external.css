@@ -1,6 +1,4 @@
 
-
-
 body{
     background-color:rgb(231, 229, 226);
     font-family: monospace;
@@ -25,44 +23,39 @@ h1{
 .greeting{
     font-size: 40px;
     margin-bottom: 30px;
+    position: relative;
+    top: 50px;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid;
+    text-align: center;
+    white-space:nowrap;
+    overflow:hidden;transform: translateY(-50%);
+    animation: typewriter 3s steps(20) 1s normal both,
+    500ms steps(20) infinite normal;
 }
+
+@keyframes typewriter{
+    from{
+        width:0;
+    }
+    to {
+        width:11em;
+    }
+}
+
 
 .secondgreeting{
     font-size: 18px;
-    margin: 50px;
-}
- .line1{
-     position: relative;
-     top: 50px;
-     width: 24em;
-     margin: 0 auto;
-     border-right: 2px solid rgba(red, green, blue, alpha);
-     font-size: 180%;
-     text-align: center;
-     white-space: nowrap;
-     overflow: hidden;
-     transform: translateY(-50%);
- }
-
-.animationtypewriter{
-    animation: typewriter 4s steps(20) 1s 1 normal both,
-    
-}
-.typewriter {
-    font-family: monospace;
+    margin-top: 50px;
     margin-bottom: 150px;
-    color: black;
 }
-
 
 .navigate{
     text-align: right;
     border-bottom: 2px solid white;
 
 }
-/* .introduction{
-    margin-right: 58px;
-} */
 
 .section2{
     margin-bottom: 150px;
