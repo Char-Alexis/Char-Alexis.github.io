@@ -1,6 +1,6 @@
 
 body{
-    background-color:rgb(231, 229, 226);
+    /* background-color:rgb(231, 229, 226); */
     font-family: monospace;
     line-height: normal;
     padding-left: 10px;
@@ -17,6 +17,8 @@ body{
 h1{
     font-family: monospace;
     font-size: 20px;
+    justify-content: center;
+  
     
 }
 
@@ -53,7 +55,7 @@ h1{
 
 .navigate{
     text-align: right;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
 
 }
 
@@ -81,4 +83,11 @@ th,td{
 th{
     background-color:ghostwhite;
     color:black;
+}
+
+img{
+    /* justify-content: center; */
+    position: absolute;
+    right: 100px;
+
 }
