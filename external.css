@@ -4,8 +4,6 @@ body{
     font-family: monospace;
     line-height: normal;
     padding-left: 10px;
-    place-content: center;
-    text-align: center;
     min-height: 100;
 }
 
@@ -15,13 +13,12 @@ body{
 } */
 
 h1{
-    font-family: monospace;
+    font-family:  'Inter', sans-serif;
     font-size: 20px;
-    justify-content: center;
   
     
 }
-
+/* 
 .greeting{
     font-size: 40px;
     margin-bottom: 30px;
@@ -44,7 +41,7 @@ h1{
     to {
         width:11em;
     }
-}
+} */
 
 
 .secondgreeting{
@@ -85,9 +82,3 @@ th{
     color:black;
 }
 
-img{
-    /* justify-content: center; */
-    position: absolute;
-    right: 100px;
-
-}
