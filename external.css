@@ -1,19 +1,21 @@
 
 body{
     /* background-color:rgb(231, 229, 226); */
-    font-family: monospace;
     line-height: normal;
     padding-left: 10px;
     min-height: 100;
 }
 
+*{
+    font-family:'Work Sans', sans-serif;
+
+}
 /* img{
     display: block;
     max-width: 100%;
 } */
 
 h1{
-    font-family:  'Inter', sans-serif;
     font-size: 20px;
   
     
@@ -51,8 +53,10 @@ h1{
     padding-bottom: 100px;
     top: 100px;
     width: 24em;
-    margin: 60px 150px 100px;
+    margin: 60px 145px 100px;
     padding-left: 10px;
+    font-family:'Work Sans', sans-serif;
+
 
 }
 
