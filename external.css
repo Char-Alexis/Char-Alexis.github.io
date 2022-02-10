@@ -52,10 +52,28 @@ h1{
 
 .navigate{
     text-align: right;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black;  */
+    height: 40px;
+    width: 85%;
+    margin: 0 auto;
 
 }
 
+.navigate a{
+    text-decoration: none;
+    line-height: 40px;
+    padding: 10px;
+    margin: 0px 5px;
+    color: black
+
+}
+
+.navigate a:hover {
+    transition: 1s;
+    border-radius: 15px;
+    background-color: #dee1e3;
+    color: white;
+}
 .section2{
     margin-bottom: 150px;
 }
