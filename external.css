@@ -10,10 +10,7 @@ body{
     font-family:'Work Sans', sans-serif;
 
 }
-/* img{
-    display: block;
-    max-width: 100%;
-} */
+
 
 h1{
     font-size: 20px;
@@ -108,7 +105,7 @@ h1{
 
 
 
-.card{
+/* .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin:auto;
@@ -126,5 +123,159 @@ button{
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+
+} */
+
+CARD 
+img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+
+    object-fit: cover;
+}
+
+body {
+    background-color: white;
+}
+
+#container{
+    max-width: 300px;
+    margin: 0 auto;
+
+    margin-top: 20vh;
+}
+
+.card{
+    background-color: white;
+    padding: 8px;
+
+    border-radius: 12px;
+    border: 1px solid #BACDD8;
+}
+
+.tag{
+    padding: 4px 8px;
+    border: 1px solid white;
+
+    font-size: 12px;
+    font-weight: 600px;
+    color: #788697;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-top: 16px;
+}
+
+p{
+    font-size:14px;
+    color: #788697;
+    line-height: 150%;
+}
+
+button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+
+    font-weight: 600;
+    color: #0077FF;
+    background-color: #E0EFFF;
+
+    margin: 0 auto;
+    display: block;
+
+    /* translation: all 200ms ease-in-out; */
+    cursor:pointer
+}
+
+button:focus, button:hover{
+    background-color: #0077FF;
+    color:#E0EFFF;
+}
+
+.card-details {
+    padding: 16px 8px 8px 8px;
+}
+
+
+ABOUT
+
+.styled_OuterWrapper-sc-10tloyd-1-kWmmhb{
+    background-color: rgb(34, 41, 47);
+    border-bottom-width: 1px;
+    border-color:rgb(34, 41, 47); 
+}
+
+.styledTerminalHeader{
+    padding: 10px 0px 10px ;
+    display: flex;
+    width: 50%;
+    -moz-box-align: center;
+    align-items: center;
+    height: 1.5rem;
+    border-radius: 0.125rem;
+    border-bottom-width: 1px red;
+    background-color: rgb(218, 225, 231);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.styled_CloseButton-sc-10t-loyd-2-gBmArl{
+    display: flex;
+    margin-left: 0.5rem;
+    -moz-box-align: center;
+    align-items: center;
+    text-align: center;
+    border-color: rgb(220, 27, 27);
+    background-color: rgb(206, 21, 21);
+    border-radius: 9999px;
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.styled_MinButton-sc-10t-loyd-5-fKHttt{
+    margin-left: 0.5rem;
+    border-color: rgb(250, 250, 135);
+    background-color: yellow;
+
+    border-radius: 9999px;
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.styled_MaxButton-sc-10t-loyd-6-iDySRM{
+    margin-left: 0.5rem;
+    border-color: rgb(55, 121, 55);
+    background-color: rgb(56, 152, 56);
+
+    border-radius: 9999px;
+    width: 0.75rem;
+    height: 0.75rem;
+
+}
+
+.styled_TerminalContent-sc-10tloyd-8-jscHkR{
+    background-color: #071b2f;
+    padding: 10px 0px 10px ;
+    display: flex;
+    width: 50%;
+    /* -moz-box-align: center;
+    align-items: center; */
+    height: 20rem;
+    border-radius: 0.125rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.styled__Content-sc-10tloyd-10-gBxRZs{
+    font-size: 1.125rem;
+    font-weight: 300;
+    box-sizing: content-box;
 
 }
