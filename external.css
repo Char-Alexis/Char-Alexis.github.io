@@ -210,7 +210,7 @@ button:focus, button:hover{
     transition: transform .3s;
 }
 
-.grid > article{
+.grid > article:hover{
     transform: translateY(5px);
     box-shadow: 2px 2px 26px 0px black;
 
