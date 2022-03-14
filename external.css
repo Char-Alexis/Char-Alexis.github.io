@@ -127,8 +127,12 @@ button{
 } */
 
 /* CARD  */
+
+.card{
+    width: 300px;
+}
 img {
-    width: 100%;
+    width: 50%;
     border-radius: 12px;
     height: 214px;
 
