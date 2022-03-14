@@ -1,20 +1,17 @@
 
 body{
-    /* background-color:rgb(231, 229, 226); */
     line-height: normal;
     padding-left: 10px;
     min-height: 100;
 }
 
 *{
-    /* font-family:'Work Sans', sans-serif; */
     font-family:'Work Sans', sans-serif;
 }
 
 
 h1{
     font-size: 20px;
-    
 }
 
 .greeting{
@@ -107,7 +104,7 @@ button{
 
 /* CARD  */
 
-
+/* 
 img {
     width: 30%;
     border-radius: 15px;
@@ -116,10 +113,6 @@ img {
 
     display: block;
     height: auto;
-}
-
-body {
-    background-color: black;
 }
 
 
@@ -172,7 +165,7 @@ button{
     margin: 0 auto;
     display: block;
 
-    /* translation: all 200ms ease-in-out; */
+    translation: all 200ms ease-in-out;
     cursor:pointer
 }
 
@@ -183,8 +176,55 @@ button:focus, button:hover{
 
 .card-details {
     padding: 16px 8px 8px 8px;
+} */
+
+
+
+/* CARD GRID LAYOUT */
+
+/* img {
+    width: 100%;
+    border-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+
+    display: block;
+    height: auto;
+} */
+
+.grid{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-gap:30px;
+    align-items: center;
 }
 
+.grid > article{
+    background: white;
+    border: none;
+    box-shadow: 2px 2px 6px 0px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform .3s;
+}
+
+.grid > article{
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0px black;
+
+}
+
+.grid > article img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text{
+    padding: 0 20px 20px;
+}
 
 /* ABOUT */
 
