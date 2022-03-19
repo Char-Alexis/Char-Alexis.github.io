@@ -131,14 +131,7 @@ img {
     border: 1px solid #BACDD8;
 }
 
-.tag{
-    padding: 4px 8px;
-    border: 1px solid white;
 
-    font-size: 12px;
-    font-weight: 600px;
-    color: #788697;
-}
 
 .name{
     font-size: 24px;
@@ -191,6 +184,16 @@ button:focus, button:hover{
     display: block;
     height: auto;
 } */
+
+
+.tag{
+    padding: 4px 8px;
+    border: 1px solid white;
+
+    font-size: 12px;
+    font-weight: 600px;
+    color: #788697;
+}
 
 .grid{
     margin: 80px;
