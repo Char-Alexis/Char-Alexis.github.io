@@ -297,8 +297,6 @@ button:focus, button:hover{
     background-color: #071b2f;
     padding: 10px 0px 10px ;
     width: 55%;
-    /* -moz-box-align: center;
-    align-items: center; */
     height: 30rem;
     border-radius: 0.125rem;
     margin-left: auto;
@@ -313,6 +311,14 @@ button:focus, button:hover{
 
 } */
 
+.terminal_commands{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+
+ .terminal_message, .terminal_message_facts{
+     margin-left: 10px;
+ }
 /* FOOTER */
 .col-4{
     font-weight: 500;
