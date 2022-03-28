@@ -40,7 +40,6 @@ h1{
 
 .navigate{
     text-align: right;
-    /* border-bottom: 2px solid black;  */
     height: 40px;
     width: 85%;
     margin: 0 auto;
@@ -53,13 +52,11 @@ h1{
     padding: 10px;
     margin: 0px 5px;
     color: #1f4f32;
-    /* font-family: 'Anton', sans-serif; */
-
 }
 
 .navigate a:hover {
-    transition: 1s;
-    border-radius: 15px;
+    transition: 0.5s;
+    border-radius: 10px;
     background-color: #dee1e3;
     color: #003f7e;
 }
