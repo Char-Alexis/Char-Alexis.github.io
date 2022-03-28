@@ -51,7 +51,7 @@ h1{
     line-height: 40px;
     padding: 10px;
     margin: 0px 5px;
-    color: #1f4f32;
+    color: #546e7a;
 }
 
 .navigate a:hover {
@@ -92,7 +92,8 @@ h1{
     text-align: center;
 }
 
-button{
+
+button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -104,7 +105,7 @@ button{
     width: 100%;
     font-size: 18px;
 
-} */
+} 
 
 /* CARD  */
 
@@ -148,27 +149,6 @@ p{
     font-size:14px;
     color: #788697;
     line-height: 150%;
-}
-
-button{
-    border: none;
-    padding: 12px 24px;
-    border-radius: 50px;
-
-    font-weight: 600;
-    color: #0077FF;
-    background-color: #E0EFFF;
-
-    margin: 0 auto;
-    display: block;
-
-    translation: all 200ms ease-in-out;
-    cursor:pointer
-}
-
-button:focus, button:hover{
-    background-color: #0077FF;
-    color:#E0EFFF;
 }
 
 .card-details {
@@ -241,6 +221,21 @@ button:focus, button:hover{
     color: #546e7a;
 }
 
+button, .git {
+    border: none;
+    margin:0 auto;
+    border-radius: 210px;
+    padding: 8px 20px;
+    color: white;
+    background-color: rgb(182, 213, 240);
+    text-align: center;
+    font-size: 18px;
+} 
+
+button:focus, button:hover{
+    background-color:#dee1e3;
+    color:#003f7e;
+}
 /* ABOUT */
 
 .styled_OuterWrapper-sc-10tloyd-1-kWmmhb{
