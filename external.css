@@ -80,7 +80,11 @@ h1{
 
 
 
+/* Project header */
 
+.project_title, .project_subtitle{
+    text-align: center;
+}
 /* .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
@@ -301,6 +305,7 @@ button:focus, button:hover{
     border-radius: 0.125rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
     color: white;
 }
 
