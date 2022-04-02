@@ -301,7 +301,7 @@ button:focus, button:hover{
     border-radius: 0.125rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     color: white;
 }
 
@@ -327,6 +327,11 @@ button:focus, button:hover{
     margin-left: 10px;
 }
 
+/* Competencies */
+.technical_skills{
+    margin: 0px 200px 520px;
+    padding-left: 10px;
+}
 
 
 
