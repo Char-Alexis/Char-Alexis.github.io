@@ -257,10 +257,10 @@ button:focus, button:hover{
 .scroll_to_top_btn{
     font-size: 2.5rem;
     cursor: pointer;
-    position: fixed;
     bottom: 20px;
-    right: 20px;
-
+    right: 40px;
+    position: fixed;
+   
     transform: scale(0.9);
     transition: 0.3s ease-in-out transfrom;
 }
