@@ -252,3 +252,12 @@ button:focus, button:hover{
     padding-left: 10px;
 
 }
+
+
+.scroll_to_top_btn{
+    font-size: 3rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
